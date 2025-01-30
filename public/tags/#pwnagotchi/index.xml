@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Pwnagotchi on Terminal</title>
+    <link>//localhost:1313/tags/%23pwnagotchi/</link>
+    <description>Recent content in #Pwnagotchi on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/%23pwnagotchi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pawnagotchi plugins using CLI</title>
+      <link>//localhost:1313/posts/-raspberry-pi/pawnagotchi-plugins-using-cli/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/-raspberry-pi/pawnagotchi-plugins-using-cli/</guid>
+      <description>&lt;h2 id=&#34;a-command-to-install-plugins&#34;&gt;A command to install plugins&lt;/h2&gt;
+&lt;p&gt;This is the main way of how the pawnagotchi uses plugins, suprisingly it&amp;rsquo;s extremely similar to apt.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A way of updating the plugins just like apt just put update in front of the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;adding-plugin-repos-to-pwnagotchi&#34;&gt;Adding plugin repos to pwnagotchi&lt;/h2&gt;
+&lt;p&gt;If you want to add repos to update from then edit the file: &lt;code&gt;/etc/pawnagotchi/config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And add the lines:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;custom&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;plugins_list&lt;/span&gt; = &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://a.github.com/repo.zip&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Make sure to add a comma of you want to add more than one!&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;a-command-to-install-plugins&#34;&gt;A command to install plugins&lt;/h2&gt;
+&lt;p&gt;This is the main way of how the pawnagotchi uses plugins, suprisingly it&amp;rsquo;s extremely similar to apt.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A way of updating the plugins just like apt just put update in front of the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;adding-plugin-repos-to-pwnagotchi&#34;&gt;Adding plugin repos to pwnagotchi&lt;/h2&gt;
+&lt;p&gt;If you want to add repos to update from then edit the file: &lt;code&gt;/etc/pawnagotchi/config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And add the lines:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;custom&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;plugins_list&lt;/span&gt; = &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://a.github.com/repo.zip&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Make sure to add a comma of you want to add more than one!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;custom&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;plugins_list&lt;/span&gt; = &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://a.github.com/repo.zip&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://another.github.com/repo.zip&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;listing-plugins&#34;&gt;Listing plugins&lt;/h2&gt;
+&lt;p&gt;To list current installable plugins from all repos added just use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You should use this command after you use the &lt;code&gt;sudo pwnagotchi plugins update&lt;/code&gt; command to ensure the latest update and repos are correctly added.&lt;/p&gt;
+&lt;h2 id=&#34;installing-plugins&#34;&gt;Installing plugins&lt;/h2&gt;
+&lt;p&gt;To install pwnagotchi plugins use the command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pawnagotchi plugins install &amp;lt;plugin_name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Use the plugin name on the list command and make sure to check the case&lt;/p&gt;
+&lt;h2 id=&#34;further-information&#34;&gt;Further information:&lt;/h2&gt;
+&lt;p&gt;Custom plugins are stored usually on &lt;code&gt;/use/local/pwnagotchi/custom-plugins&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So if you have access to FileZilla or some other FTP client you can connect to your pwnagotchi and copy custom plugins. Directly into your pwnagotchi (plugins are .py or python scripts, just so you know).&lt;/p&gt;
+&lt;p&gt;Just make sure to change&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-conf&#34; data-lang=&#34;conf&#34;&gt;permitRootLogin = prohibitPassword
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to :&lt;/p&gt;
+&lt;p&gt;which can be found in etc/ssh/sshd.config&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

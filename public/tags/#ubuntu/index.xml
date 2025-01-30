@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Ubuntu on Terminal</title>
+    <link>//localhost:1313/tags/%23ubuntu/</link>
+    <description>Recent content in #Ubuntu on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/%23ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flatpak installation</title>
+      <link>//localhost:1313/posts/%EF%B8%8F-installation/flatpak-installation/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/%EF%B8%8F-installation/flatpak-installation/</guid>
+      <description>&lt;h2 id=&#34;flatpak&#34;&gt;Flatpak&lt;/h2&gt;
+&lt;h4 id=&#34;ubuntu-flatpak&#34;&gt;Ubuntu Flatpak&lt;/h4&gt;
+&lt;p&gt;Add repos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo add-apt-repository ppa:flatpak/stable
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;raspbian-flatpak&#34;&gt;Raspbian Flatpak&lt;/h4&gt;
+&lt;p&gt;Raspbian isn&amp;rsquo;t special just run the installation using &lt;code&gt;apt&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <content>&lt;h2 id=&#34;flatpak&#34;&gt;Flatpak&lt;/h2&gt;
+&lt;h4 id=&#34;ubuntu-flatpak&#34;&gt;Ubuntu Flatpak&lt;/h4&gt;
+&lt;p&gt;Add repos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo add-apt-repository ppa:flatpak/stable
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;raspbian-flatpak&#34;&gt;Raspbian Flatpak&lt;/h4&gt;
+&lt;p&gt;Raspbian isn&amp;rsquo;t special just run the installation using &lt;code&gt;apt&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+  </channel>
+</rss>
