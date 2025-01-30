@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#CLI on Terminal</title>
+    <link>//localhost:1313/tags/%23cli/</link>
+    <description>Recent content in #CLI on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/%23cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to configure Raspberry Pi Settings</title>
+      <link>//localhost:1313/posts/-raspberry-pi/how-to-configure-raspberry-pi-settings/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/-raspberry-pi/how-to-configure-raspberry-pi-settings/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo raspi-config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is a command that helps change most of the Raspbian settings and automates edits to &lt;a href=&#34;https://www.raspberrypi.com/documentation/computers/config_txt.html#what-is-config-txt&#34;&gt;&lt;code&gt;/boot/firmware/config.txt&lt;/code&gt;&lt;/a&gt;. Running this command give some options to &lt;strong&gt;&lt;em&gt;enable / disable&lt;/em&gt; Raspbian features such as:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;raspberry-pi-software-configuration-tool-raspi-config&#34;&gt;Raspberry Pi Software Configuration Tool (raspi-config)&lt;/h2&gt;
+&lt;p&gt;![[Raspberry Pi Software Configuration Tool (raspi-config).png]]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System Options - Configure system settings&lt;/li&gt;
+&lt;li&gt;Display Options - Configure display settings&lt;/li&gt;
+&lt;li&gt;Interface Options - Configure connections to peripherals&lt;/li&gt;
+&lt;li&gt;Performance Options - Configure Configure performance settings&lt;/li&gt;
+&lt;li&gt;Localization Options - Configure language and regional settings&lt;/li&gt;
+&lt;li&gt;Advanced options - Configure advanced settings&lt;/li&gt;
+&lt;li&gt;Update - Update the raspi-config tool to the latest version&lt;/li&gt;
+&lt;li&gt;About raspi-config - information about this configuration tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-use-the-menu&#34;&gt;How to use the menu&lt;/h2&gt;
+&lt;p&gt;Use the &lt;strong&gt;Up&lt;/strong&gt; and &lt;strong&gt;Down&lt;/strong&gt; arrow keys to move the highlighted selection between the options available.&lt;/p&gt;</description>
+      <content>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo raspi-config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is a command that helps change most of the Raspbian settings and automates edits to &lt;a href=&#34;https://www.raspberrypi.com/documentation/computers/config_txt.html#what-is-config-txt&#34;&gt;&lt;code&gt;/boot/firmware/config.txt&lt;/code&gt;&lt;/a&gt;. Running this command give some options to &lt;strong&gt;&lt;em&gt;enable / disable&lt;/em&gt; Raspbian features such as:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;raspberry-pi-software-configuration-tool-raspi-config&#34;&gt;Raspberry Pi Software Configuration Tool (raspi-config)&lt;/h2&gt;
+&lt;p&gt;![[Raspberry Pi Software Configuration Tool (raspi-config).png]]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System Options - Configure system settings&lt;/li&gt;
+&lt;li&gt;Display Options - Configure display settings&lt;/li&gt;
+&lt;li&gt;Interface Options - Configure connections to peripherals&lt;/li&gt;
+&lt;li&gt;Performance Options - Configure Configure performance settings&lt;/li&gt;
+&lt;li&gt;Localization Options - Configure language and regional settings&lt;/li&gt;
+&lt;li&gt;Advanced options - Configure advanced settings&lt;/li&gt;
+&lt;li&gt;Update - Update the raspi-config tool to the latest version&lt;/li&gt;
+&lt;li&gt;About raspi-config - information about this configuration tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-use-the-menu&#34;&gt;How to use the menu&lt;/h2&gt;
+&lt;p&gt;Use the &lt;strong&gt;Up&lt;/strong&gt; and &lt;strong&gt;Down&lt;/strong&gt; arrow keys to move the highlighted selection between the options available.&lt;/p&gt;
+&lt;p&gt;Press the &lt;strong&gt;Right&lt;/strong&gt; arrow key or press &lt;strong&gt;Tab&lt;/strong&gt; to access the &lt;code&gt;&amp;lt;Select&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;Finish&amp;gt;&lt;/code&gt; buttons. Press &lt;strong&gt;Left&lt;/strong&gt; or press &lt;strong&gt;Tab&lt;/strong&gt; to return to the options.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;raspi-config&lt;/code&gt; automates edits to &lt;a href=&#34;https://www.raspberrypi.com/documentation/computers/config_txt.html#what-is-config-txt&#34;&gt;&lt;code&gt;/boot/firmware/config.txt&lt;/code&gt;&lt;/a&gt; and various Linux configuration files. Some options require a reboot to take effect. If you changed any of these, &lt;code&gt;raspi-config&lt;/code&gt; asks you to reboot when you exit.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
