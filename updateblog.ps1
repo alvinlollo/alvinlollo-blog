@@ -52,19 +52,6 @@ else {
     }
 }
 
-# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
-Write-Host "Syncing posts from Obsidian..."
-
-if (-not (Test-Path $sourcePath)) {
-    Write-Error "Source path does not exist: $sourcePath"
-    exit 1
-}
-
-if (-not (Test-Path $destinationPath)) {
-    Write-Error "Destination path does not exist: $destinationPath"
-    exit 1
-}
-
 # Use Robocopy to mirror the directories
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
 $robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
