@@ -96,14 +96,10 @@ logoText = "Terminal"
 [[languages.en.menu.main]]
 identifier = "installation"
 name = "Installation"
-url = "/posts/%EF%B8%8F-installation"
+url = "/posts/linux/installation"
 
 [[languages.en.menu.main]]
 identifier = "raspberry"
 name = "Raspberry Pi"
-url = "/posts/-raspberry-pi"
+url = "/posts/linux/raspberry-pi"
 
-[[languages.en.menu.main]]
-identifier = "docker"
-name = "Docker"
-url = "/posts/-docker"
