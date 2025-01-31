@@ -89,7 +89,7 @@ words = "words"
 
 [languages.en.params.logo]
 logoHomeLink = "/"
-logoText = "Terminal"
+logoText = "Alvin's Blog"
 
 # More links to show in the page header
 # [languages.en.menu]
