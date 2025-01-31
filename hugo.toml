@@ -92,14 +92,14 @@ logoHomeLink = "/"
 logoText = "Terminal"
 
 # More links to show in the page header
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "installation"
-name = "Installation"
-url = "posts/linux/installation"
+# [languages.en.menu]
+# [[languages.en.menu.main]]
+# identifier = "installation"
+# name = "Installation"
+# url = "posts/linux/installation"
 
-[[languages.en.menu.main]]
-identifier = "raspberry"
-name = "Raspberry Pi"
-url = "posts/linux/raspberry-pi"
+# [[languages.en.menu.main]]
+# identifier = "raspberry"
+# name = "Raspberry Pi"
+# url = "posts/linux/raspberry-pi"
 
