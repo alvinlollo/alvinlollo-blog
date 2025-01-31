@@ -131,35 +131,35 @@ catch {
     exit 1
 }
 
-# Step 8: Push the public folder to the hostinger branch using subtree split and force push
-Write-Host "Deploying to GitHub Hostinger..."
+# Step 8: Push the public folder to the pages branch using subtree split and force push
+Write-Host "Deploying to GitHub Pages..."
 
 # Check if the temporary branch exists and delete it
-$branchExists = git branch --list "hostinger-deploy"
+$branchExists = git branch --list "pages"
 if ($branchExists) {
-    git branch -D hostinger-deploy
+    git branch -D pages
 }
 
 # Perform subtree split
 try {
-    git subtree split --prefix public -b hostinger-deploy
+    git subtree split --prefix public -b pages
 }
 catch {
     Write-Error "Subtree split failed."
     exit 1
 }
 
-# Push to hostinger branch with force
+# Push to pages branch with force
 try {
-    git push origin hostinger-deploy:hostinger --force
+    git push origin pages:pages --force
 }
 catch {
-    Write-Error "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
+    Write-Error "Failed to push to Pages branch."
+    git branch -D pages
     exit 1
 }
 
 # Delete the temporary branch
-git branch -D hostinger-deploy
+git branch -D pages
 
 Write-Host "All done! Site synced, processed, committed, built, and deployed."
