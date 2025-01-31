@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Terminal</title>
+    <title>Ubuntu on Alvin&#39;s Blog</title>
     <link>/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Terminal</description>
+    <description>Recent content in Ubuntu on Alvin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing gh on Linux and BSD</title>
-      <link>/posts/-linux/%EF%B8%8F-installation/github-install/</link>
+      <link>/posts/linux/installation/github-install/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/posts/-linux/%EF%B8%8F-installation/github-install/</guid>
+      <guid>/posts/linux/installation/github-install/</guid>
       <description>&lt;p&gt;Packages downloaded from &lt;a href=&#34;https://cli.github.com/&#34;&gt;https://cli.github.com&lt;/a&gt; or from &lt;a href=&#34;https://github.com/cli/cli/releases&#34;&gt;https://github.com/cli/cli/releases&lt;/a&gt; are considered official binaries. We focus on popular Linux distros and the following CPU architectures: &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, &lt;code&gt;arm64&lt;/code&gt;, &lt;code&gt;armhf&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;debian-ubuntu-linux-raspberry-pi-os-apt&#34;&gt;Debian, Ubuntu Linux, Raspberry Pi OS (apt)&lt;/h3&gt;
 &lt;p&gt;Install:&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Dockur-Windows-server-2025</title>
-      <link>/posts/-linux/-docker/dockur-windows-server-2025/</link>
+      <link>/posts/linux/docker/dockur-windows-server-2025/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/-linux/-docker/dockur-windows-server-2025/</guid>
+      <guid>/posts/linux/docker/dockur-windows-server-2025/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;services&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;windows&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dockurr/windows&lt;/span&gt;
@@ -109,10 +109,10 @@
     
     <item>
       <title>Installing Docker</title>
-      <link>/posts/-linux/%EF%B8%8F-installation/docker-install/</link>
+      <link>/posts/linux/installation/docker-install/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/-linux/%EF%B8%8F-installation/docker-install/</guid>
+      <guid>/posts/linux/installation/docker-install/</guid>
       <description>&lt;h2 id=&#34;docker-install-single-command-install&#34;&gt;[[Docker install]] Single command install:&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com -o get-docker.sh
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sh get-docker.sh
