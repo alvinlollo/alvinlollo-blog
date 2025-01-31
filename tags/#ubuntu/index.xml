@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>#Ubuntu on Terminal</title>
-    <link>//localhost:1313/tags/%23ubuntu/</link>
+    <link>/tags/%23ubuntu/</link>
     <description>Recent content in #Ubuntu on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/%23ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%23ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flatpak installation</title>
-      <link>//localhost:1313/posts/%EF%B8%8F-installation/flatpak-installation/</link>
+      <link>/posts/-linux/%EF%B8%8F-installation/flatpak-installation/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/%EF%B8%8F-installation/flatpak-installation/</guid>
+      <guid>/posts/-linux/%EF%B8%8F-installation/flatpak-installation/</guid>
       <description>&lt;h2 id=&#34;flatpak&#34;&gt;Flatpak&lt;/h2&gt;
 &lt;h4 id=&#34;ubuntu-flatpak&#34;&gt;Ubuntu Flatpak&lt;/h4&gt;
 &lt;p&gt;Add repos&lt;/p&gt;
