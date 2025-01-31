@@ -93,7 +93,7 @@ catch {
 # Step 4: Build the Hugo site
 Write-Host "Building the Hugo site..."
 try {
-    hugo
+    hugo 
 }
 catch {
     Write-Error "Hugo build failed."
