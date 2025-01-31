@@ -118,35 +118,35 @@ catch {
     exit 1
 }
 
-# Step 8: Push the public folder to the pages branch using subtree split and force push
+# Step 8: Push the public folder to the git-pages branch using subtree split and force push
 Write-Host "Deploying to GitHub Pages..."
 
 # Check if the temporary branch exists and delete it
-$branchExists = git branch --list "pages"
+$branchExists = git branch --list "git-pages"
 if ($branchExists) {
-    git branch -D pages
+    git branch -D git-git-pages
 }
 
 # Perform subtree split
 try {
-    git subtree split --prefix public -b pages
+    git subtree split --prefix public -b git-pages
 }
 catch {
     Write-Error "Subtree split failed."
     exit 1
 }
 
-# Push to pages branch with force
+# Push to git-pages branch with force
 try {
-    git push origin pages:pages --force
+    git push origin git-pages:git-pages --force
 }
 catch {
-    Write-Error "Failed to push to Pages branch."
-    git branch -D pages
+    Write-Error "Failed to push to git-pages branch."
+    git branch -D git-pages
     exit 1
 }
 
 # Delete the temporary branch
-git branch -D pages
+git branch -D git-pages
 
 Write-Host "All done! Site synced, processed, committed, built, and deployed."
