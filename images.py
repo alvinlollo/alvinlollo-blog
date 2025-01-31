@@ -3,7 +3,7 @@ import re
 import shutil
 
 # Paths (using raw strings to handle Windows backslashes correctly)
-posts_dir = r"Z:\Docker\Obsidian\ssl\🐧 Linux"
+posts_dir = r"Z:\Docker\Obsidian\ssl\_Posts\Linux"
 attachments_dir = r"Z:\Docker\Obsidian\ssl\Attachments"
 static_images_dir = r"Z:\Docker\Obsidian\ssl\Images"
 

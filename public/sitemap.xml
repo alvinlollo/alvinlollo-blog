@@ -5,6 +5,9 @@
     <loc>/tags/%23ubuntu/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/</loc>
+    <lastmod>2025-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/apt/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,10 +17,10 @@
     <loc>/tags/debian/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/%EF%B8%8F-installation/flatpak-installation/</loc>
+    <loc>/posts/linux/installation/flatpak-installation/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/%EF%B8%8F-installation/github-install/</loc>
+    <loc>/posts/linux/installation/github-install/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
@@ -29,31 +32,28 @@
     <loc>/tags/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2025-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/ubuntu/</loc>
     <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%23pwnagotchi/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/-raspberry-pi/pawnagotchi-plugins-using-cli/</loc>
+    <loc>/posts/linux/raspberry-pi/pawnagotchi-plugins-using-cli/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/-raspberry-pi/vnc-on-raspberry-pi/</loc>
+    <loc>/posts/linux/raspberry-pi/vnc-on-raspberry-pi/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%23cli/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/-raspberry-pi/how-to-configure-raspberry-pi-settings/</loc>
+    <loc>/posts/linux/raspberry-pi/how-to-configure-raspberry-pi-settings/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%23docker/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/-docker/dockur-windows-server-2025/</loc>
+    <loc>/posts/linux/docker/dockur-windows-server-2025/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/%23apt/</loc>
@@ -68,10 +68,10 @@
     <loc>/tags/docker/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/%EF%B8%8F-installation/what-i-need-to-install-on-any-linux-machine/</loc>
+    <loc>/posts/linux/installation/what-i-need-to-install-on-any-linux-machine/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/-linux/%EF%B8%8F-installation/docker-install/</loc>
+    <loc>/posts/linux/installation/docker-install/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>

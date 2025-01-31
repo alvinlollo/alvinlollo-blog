@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>#Debian on Terminal</title>
+    <title>#Debian on Alvin&#39;s Blog</title>
     <link>/tags/%23debian/</link>
-    <description>Recent content in #Debian on Terminal</description>
+    <description>Recent content in #Debian on Alvin&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%23debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What I NEED to install on any Linux machine</title>
-      <link>/posts/-linux/%EF%B8%8F-installation/what-i-need-to-install-on-any-linux-machine/</link>
+      <link>/posts/linux/installation/what-i-need-to-install-on-any-linux-machine/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/-linux/%EF%B8%8F-installation/what-i-need-to-install-on-any-linux-machine/</guid>
+      <guid>/posts/linux/installation/what-i-need-to-install-on-any-linux-machine/</guid>
       <description>&lt;h2 id=&#34;adding-repositories&#34;&gt;Adding repositories&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt upgrade

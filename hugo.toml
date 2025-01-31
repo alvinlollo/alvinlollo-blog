@@ -70,7 +70,7 @@ site = ""
 [languages]
 [languages.en]
 languageName = "English"
-title = "Terminal"
+title = "Alvin's Blog"
 
 [languages.en.params]
 copyright = ""
@@ -84,7 +84,7 @@ olderPosts = "Older posts"
 owner = ""
 readMore = "Read more"
 readOtherPosts = "Read other posts"
-subtitle = "A simple, retro theme for Hugo"
+subtitle = "read me pls"
 words = "words"
 
 [languages.en.params.logo]
