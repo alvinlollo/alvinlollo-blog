@@ -6,6 +6,7 @@ tags:
   - apt
   - CLI
   - Ubuntu
+  - Docker
 ---
 ##  [[Docker install]] Single command install:
 

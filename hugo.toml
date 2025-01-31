@@ -4,6 +4,7 @@ languageCode = "en-us"
 # Remove it if you use the theme as a remote Hugo Module.
 paginate = 5
 theme = "terminal"
+relativeURLs = true
 
 [params]
 # dir name of your main content (default is `content/posts`).
@@ -90,12 +91,19 @@ words = "words"
 logoHomeLink = "/"
 logoText = "Terminal"
 
+# More links to show in the page header
 [languages.en.menu]
 [[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
+identifier = "installation"
+name = "Installation"
+url = "/posts/%EF%B8%8F-installation"
+
 [[languages.en.menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase"
+identifier = "raspberry"
+name = "Raspberry Pi"
+url = "/posts/-raspberry-pi"
+
+[[languages.en.menu.main]]
+identifier = "docker"
+name = "Docker"
+url = "/posts/-docker"

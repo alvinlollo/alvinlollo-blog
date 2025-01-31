@@ -1,4 +1,15 @@
-This is a Docker-compose
+---
+title: Dockur-Windows-server-2025
+date: 2024-11-21
+tags:
+  - apt
+  - CLI
+  - Debian
+  - Ubuntu
+  - "#Docker"
+---
+
+
 ```yaml
 services:
   windows:

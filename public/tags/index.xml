@@ -2,117 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Terminal</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#Ubuntu</title>
-      <link>//localhost:1313/tags/%23ubuntu/</link>
+      <link>/tags/%23ubuntu/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23ubuntu/</guid>
+      <guid>/tags/%23ubuntu/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Apt</title>
-      <link>//localhost:1313/tags/apt/</link>
+      <link>/tags/apt/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/apt/</guid>
+      <guid>/tags/apt/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>CLI</title>
-      <link>//localhost:1313/tags/cli/</link>
+      <link>/tags/cli/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/cli/</guid>
+      <guid>/tags/cli/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Debian</title>
-      <link>//localhost:1313/tags/debian/</link>
+      <link>/tags/debian/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/debian/</guid>
+      <guid>/tags/debian/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Raspberry</title>
-      <link>//localhost:1313/tags/raspberry/</link>
+      <link>/tags/raspberry/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/raspberry/</guid>
+      <guid>/tags/raspberry/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>//localhost:1313/tags/ubuntu/</link>
+      <link>/tags/ubuntu/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/ubuntu/</guid>
+      <guid>/tags/ubuntu/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>#Pwnagotchi</title>
-      <link>//localhost:1313/tags/%23pwnagotchi/</link>
+      <link>/tags/%23pwnagotchi/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23pwnagotchi/</guid>
+      <guid>/tags/%23pwnagotchi/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>#CLI</title>
-      <link>//localhost:1313/tags/%23cli/</link>
+      <link>/tags/%23cli/</link>
       <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23cli/</guid>
+      <guid>/tags/%23cli/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>#Docker</title>
+      <link>/tags/%23docker/</link>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%23docker/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>#Apt</title>
-      <link>//localhost:1313/tags/%23apt/</link>
+      <link>/tags/%23apt/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23apt/</guid>
+      <guid>/tags/%23apt/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>#Debian</title>
-      <link>//localhost:1313/tags/%23debian/</link>
+      <link>/tags/%23debian/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23debian/</guid>
+      <guid>/tags/%23debian/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>#Raspberry</title>
-      <link>//localhost:1313/tags/%23raspberry/</link>
+      <link>/tags/%23raspberry/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/%23raspberry/</guid>
+      <guid>/tags/%23raspberry/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
       <description></description>
       <content></content>
     </item>
